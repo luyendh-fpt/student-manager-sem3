@@ -30,5 +30,6 @@ namespace StudentManagement.Models
             Saved = 2,
             Deleted = -1
         }
+
     }
 }

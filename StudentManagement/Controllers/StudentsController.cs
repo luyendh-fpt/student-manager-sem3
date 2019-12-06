@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -28,6 +29,28 @@ namespace StudentManagement.Controllers
         //    var list = db.Students.OrderByDescending(s => s.CreatedAt).ToPagedList(page.Value, limit.Value);
         //    return View(list);
         //}
+
+        public ActionResult GetChartData()
+        {
+            var data = db.Students.Where(s => s.Status != Student.StudentStatus.Deleted)
+                .GroupBy(
+                    s => new
+                    {
+                        Year = s.CreatedAt.Year,
+                        Month = s.CreatedAt.Month,
+                        Day = s.CreatedAt.Day
+                    }
+                ).Select(s => new
+                {
+                    Date = s.FirstOrDefault().CreatedAt.Day + "/" + s.FirstOrDefault().CreatedAt.Month + "/" + s.FirstOrDefault().CreatedAt.Year,
+                    Count = s.Count()
+                }).ToList();
+            return new JsonResult()
+            {
+                Data = data,
+                JsonRequestBehavior = JsonRequestBehavior.AllowGet
+            };
+        }
 
         public ActionResult Index(int? page, int? limit, string start, string end)
         {
