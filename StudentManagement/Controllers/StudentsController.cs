@@ -30,9 +30,32 @@ namespace StudentManagement.Controllers
         //    return View(list);
         //}
 
-        public ActionResult GetChartData()
+        public ActionResult GetChartData(string start, string end)
         {
-            var data = db.Students.Where(s => s.Status != Student.StudentStatus.Deleted)
+            var startTime = DateTime.Now;
+            startTime = startTime.AddYears(-1);
+            try
+            {
+                startTime = DateTime.Parse(start);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            startTime = new DateTime(startTime.Year, startTime.Month, startTime.Day, 0, 0, 0, 0);
+
+            var endTime = DateTime.Now;
+            try
+            {
+                endTime = DateTime.Parse(end);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            endTime = new DateTime(endTime.Year, endTime.Month, endTime.Day, 23, 59, 59, 0);
+
+            var data = db.Students.Where(s => s.Status != Student.StudentStatus.Deleted && (s.CreatedAt >= startTime && s.CreatedAt <= endTime))
                 .GroupBy(
                     s => new
                     {
@@ -42,12 +65,16 @@ namespace StudentManagement.Controllers
                     }
                 ).Select(s => new
                 {
-                    Date = s.FirstOrDefault().CreatedAt.Day + "/" + s.FirstOrDefault().CreatedAt.Month + "/" + s.FirstOrDefault().CreatedAt.Year,
+                    Date =  s.FirstOrDefault().CreatedAt,
                     Count = s.Count()
-                }).ToList();
+                }).OrderBy(s => s.Date).ToList();
             return new JsonResult()
             {
-                Data = data,
+                Data = data.Select(s=> new
+                {
+                    Date = s.Date.ToString("MM/dd/yyyy"),
+                    Count = s.Count
+                }),
                 JsonRequestBehavior = JsonRequestBehavior.AllowGet
             };
         }

@@ -347,6 +347,330 @@ namespace StudentManagement.Migrations
                 UpdatedAt = DateTime.Now,
                 Note = "Hello Seeding"
             });
+            list.Add(new Student()
+            {
+                RollNumber = "A028",
+                Name = "Student 028",
+                Email = "student028@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-06", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A029",
+                Name = "Student 029",
+                Email = "student029@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-06", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A030",
+                Name = "Student 030",
+                Email = "student030@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-06", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A031",
+                Name = "Student 031",
+                Email = "student031@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-05", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A032",
+                Name = "Student 032",
+                Email = "student032@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-05", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A033",
+                Name = "Student 033",
+                Email = "student033@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-04", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A034",
+                Name = "Student 034",
+                Email = "student034@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-04", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A035",
+                Name = "Student 035",
+                Email = "student035@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-04", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A036",
+                Name = "Student 036",
+                Email = "student036@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-04", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A037",
+                Name = "Student 037",
+                Email = "student037@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-04", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A038",
+                Name = "Student 038",
+                Email = "student038@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-03", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A039",
+                Name = "Student 039",
+                Email = "student039@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-03", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A040",
+                Name = "Student 040",
+                Email = "student040@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-03", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A041",
+                Name = "Student 041",
+                Email = "student041@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-03", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A042",
+                Name = "Student 042",
+                Email = "student042@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-03", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A043",
+                Name = "Student 043",
+                Email = "student043@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-03", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A044",
+                Name = "Student 044",
+                Email = "student044@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-03", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A045",
+                Name = "Student 045",
+                Email = "student045@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-03", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A046",
+                Name = "Student 046",
+                Email = "student046@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-03", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A047",
+                Name = "Student 047",
+                Email = "student047@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-03", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A048",
+                Name = "Student 048",
+                Email = "student048@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-03", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A049",
+                Name = "Student 049",
+                Email = "student049@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-03", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A050",
+                Name = "Student 050",
+                Email = "student050@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-02", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A051",
+                Name = "Student 051",
+                Email = "student051@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-02", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A052",
+                Name = "Student 052",
+                Email = "student052@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-02", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A053",
+                Name = "Student 053",
+                Email = "student053@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-02", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
+            list.Add(new Student()
+            {
+                RollNumber = "A054",
+                Name = "Student 054",
+                Email = "student054@gmail.com",
+                Birthday = DateTime.ParseExact("1993-07-09", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                CreatedAt = DateTime.ParseExact("2019-12-01", "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+                Image = "https://res.cloudinary.com/xuanhung2401/image/upload/v1575294675/b740b7qurmaekbqahqlb.jpg",
+                Status = Student.StudentStatus.Active,
+                UpdatedAt = DateTime.Now,
+                Note = "Hello Seeding"
+            });
             context.Students.AddRange(list);
             context.SaveChanges();
         }
