@@ -92,8 +92,6 @@ C:\Users\xuan hung\source\repos\StudentManagement\StudentManagement\bin\System.W
 C:\Users\xuan hung\source\repos\StudentManagement\StudentManagement\bin\Newtonsoft.Json.xml
 C:\Users\xuan hung\source\repos\StudentManagement\StudentManagement\bin\Antlr3.Runtime.pdb
 C:\Users\xuan hung\source\repos\StudentManagement\StudentManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\xuan hung\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.Migrations.InitDatabase.resources
-C:\Users\xuan hung\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.csproj.GenerateResource.cache
 C:\Users\xuan hung\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.csproj.CoreCompileInputs.cache
 C:\Users\xuan hung\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.csproj.CopyComplete
 C:\Users\xuan hung\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.dll
@@ -103,3 +101,5 @@ C:\Users\xuan hung\source\repos\StudentManagement\StudentManagement\bin\PagedLis
 C:\Users\xuan hung\source\repos\StudentManagement\StudentManagement\bin\PagedList.Mvc.dll
 C:\Users\xuan hung\source\repos\StudentManagement\StudentManagement\bin\PagedList.xml
 C:\Users\xuan hung\source\repos\StudentManagement\StudentManagement\bin\PagedList.Mvc.xml
+C:\Users\xuan hung\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.Migrations.InitAgain.resources
+C:\Users\xuan hung\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.csproj.GenerateResource.cache

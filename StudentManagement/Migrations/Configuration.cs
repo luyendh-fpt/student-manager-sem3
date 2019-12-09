@@ -21,7 +21,7 @@ namespace StudentManagement.Migrations
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data.
-            context.Database.ExecuteSqlCommand("TRUNCATE TABLE students");
+            context.Database.ExecuteSqlCommand("TRUNCATE TABLE Students");
             var list = new List<Student>();
             list.Add(new Student()
             {
